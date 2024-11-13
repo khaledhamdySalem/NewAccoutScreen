@@ -62,7 +62,7 @@ class NewAccountsViewController: UIViewController, UITableViewDataSource, UITabl
         if indexPath.row == models.count {
             print("Open new account tapped")
         } else {
-            print("Account \(indexPath.row + 1) tapped")
+            print("Account \(indexPath.row) tapped")
         }
     }
 }
